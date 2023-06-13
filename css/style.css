@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+}
+
+section{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+    background-color: chartreuse;
+}
+
+.dashed{
+    height: 200px;
+    width: 200px;
+    border: dashed 5px coral;
+    background-color: blueviolet;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dotted{
+    width: 200px;
+    height: 200px;
+    border: dotted 5px rgb(255, 80, 80);
+    background-color: rgb(171, 226, 43);
+    margin-top: 10px;
+}
+.double{
+    width: 200px;
+    height: 200px;
+    border: double 5px rgb(10, 24, 101);
+    background-color: rgb(204, 25, 144);
+    margin-top: 10px;
+}
+.solid{
+    width: 200px;
+    height: 200px;
+    border: solid 5px rgb(54, 4, 4);
+    background-color: rgb(43, 186, 226);
+    margin-top: 10px;
+}
+.radius{
+    width: 200px;
+    height: 200px;
+    border: solid 5px rgb(185, 160, 185);
+    background-color: rgb(86, 5, 70);
+    margin-top: 10px;
+}
+a{
+    background-color: aliceblue;
+}
